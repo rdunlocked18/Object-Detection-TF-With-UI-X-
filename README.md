@@ -20,14 +20,6 @@ Song Y, Guadarrama S, Murphy K, CVPR 2017
 \[[link](https://arxiv.org/abs/1611.10012)\]\[[bibtex](
 https://scholar.googleusercontent.com/scholar.bib?q=info:l291WsrB-hQJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWUIIlnPZ_L9jxvPwcC49kDlELtaeIyU-&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1)\]
 
-## Maintainers
-
-* Jonathan Huang, github: [jch1](https://github.com/jch1)
-* Vivek Rathod, github: [tombstone](https://github.com/tombstone)
-* Derek Chow, github: [derekjchow](https://github.com/derekjchow)
-* Chen Sun, github: [jesu9](https://github.com/jesu9)
-* Menglong Zhu, github: [dreamdragon](https://github.com/dreamdragon)
-
 
 ## Table of contents
 
@@ -66,39 +58,3 @@ using the Tensorflow Object Detection API, create a new question on
 [StackOverflow](https://stackoverflow.com/) with the tags "tensorflow" and
 "object-detection".
 
-## Release information
-
-### August 11, 2017
-
-We have released an update to the [Android Detect
-demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
-which will now run models trained using the Tensorflow Object
-Detection API on an Android device.  By default, it currently runs a
-frozen SSD w/Mobilenet detector trained on COCO, but we encourage
-you to try out other detection models!
-
-<b>Thanks to contributors</b>: Jonathan Huang, Andrew Harp
-
-### June 15, 2017
-
-In addition to our base Tensorflow detection model definitions, this
-release includes:
-
-* A selection of trainable detection models, including:
-  * Single Shot Multibox Detector (SSD) with MobileNet,
-  * SSD with Inception V2,
-  * Region-Based Fully Convolutional Networks (R-FCN) with Resnet 101,
-  * Faster RCNN with Resnet 101,
-  * Faster RCNN with Inception Resnet v2
-* Frozen weights (trained on the COCO dataset) for each of the above models to
-  be used for out-of-the-box inference purposes.
-* A [Jupyter notebook](object_detection_tutorial.ipynb) for performing
-  out-of-the-box inference with one of our released models
-* Convenient [local training](g3doc/running_locally.md) scripts as well as
-  distributed training and evaluation pipelines via
-  [Google Cloud](g3doc/running_on_cloud.md).
-
-
-<b>Thanks to contributors</b>: Jonathan Huang, Vivek Rathod, Derek Chow,
-Chen Sun, Menglong Zhu, Matthew Tang, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Jasper Uijlings,
-Viacheslav Kovalevskyi, Kevin Murphy
