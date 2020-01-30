@@ -1,0 +1,50 @@
+airplane
+airplane
+apple
+apple
+backpack
+backpack
+bed
+bed 
+bench
+bench
+bicycle
+bicycle
+bird
+bird 
+bottle
+bottle
+cake
+cake 
+car
+car
+cat
+cat 
+cell phone
+cell phone
+clock
+clock
+couch
+couch
+dog
+dog
+elephant
+eleplant
+kite
+kite
+laptop
+laptop
+microwave
+microwave
+orange
+orange
+person
+person
+pizza
+pizza
+traffic light
+traffic light
+train
+train
+vase
+vase 
